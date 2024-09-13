@@ -1,0 +1,36 @@
+.logo {
+    margin: 40px 100px;
+   width: 90%;
+    background-image: url("./imagens/fundo.png");
+    
+
+
+}
+
+.logo2 {
+    margin: 40px 100px;
+    width: 90%;   
+}
+
+.estilo-lista-none {
+
+    list-style-type: none;
+}
+
+.flex-conteiner {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.footer {
+    text-align: center;
+
+}
+
+.descritivo { 
+    text-align: center;
+    
+}

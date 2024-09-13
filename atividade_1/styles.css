@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(./imagens/imagen_Fundo.jpg);
+        background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+        background-repeat: no-repeat; /* Evita que a imagem se repita */
+        background-position: center center; /* Centraliza a imagem */
+    
+
+}
+
+header {
+    background-color: #030103;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+footer {
+    background-color: #332e2e;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+ nav ul li a::before{
+    content: " teste ";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(207, 18, 18);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+nav a:hover::after{
+    width: 100%;
+}
+
+/*.nav10{
+
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+
+    transition: 0.5s ease-in-out;
+}
+*/
+
+.flex-conteiner {
+    background-color: rgb(242, 241, 244);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: rgb(253, 0, 219);
+}
+.section1{
+    text-align: left ;
+
+    color: aquamarine;
+
+}
